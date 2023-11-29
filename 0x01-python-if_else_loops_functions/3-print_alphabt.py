@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    if i in [101, 113]:
-        continue
-        print("{}".format(chr(i)), end="")
+for i in range(ord('a'), ord("z")+1):
+    if chr(i) not in ['q', 'e']:
+        print("{0}" .format(chr(i)), end='')
